@@ -67,7 +67,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](/c/Users/brett/Documents/CyberSecurityBootCamp/Week_13/Project_1/Images/Brett_Ott_Docker_ps.png)
+![Brett_Ott_Docker_ps](https://user-images.githubusercontent.com/106977984/179813397-1f3c49a5-f2b1-412a-a00c-8c8301ea3ee1.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -94,10 +94,7 @@ SSH into the control node and follow the steps below:
 - Update the hosts file to include the ip address for the ELK machine and include ansible_python_interpreter=/usr/bin/python3 after the ip address of the ELK machine.
 - Run the playbook, and navigate to 20.9.39.118:5601  to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it?_
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-- _Which URL do you navigate to in order to check that the ELK server is running?
+
 
 
 
