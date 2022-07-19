@@ -12,6 +12,10 @@ The files in this repository were used to configure the network depicted below.
   These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Install ELK YAML file may be used to install only certain pieces of it, such as Filebeat.
   
   ![Install_ELK_YAML](https://user-images.githubusercontent.com/106977984/179809975-35aa2c5b-3b9f-4cce-83f5-f71c90f9aac3.png)
+  
+![Install_DVWA_YAML](https://user-images.githubusercontent.com/106977984/179812398-fa5d6ee2-e773-4d03-ba7c-50d6ab419448.png)
+![Insall_Filebeat_YAML](https://user-images.githubusercontent.com/106977984/179812421-64c8a57e-882f-4cb8-9189-793eceaf1cf8.png)
+![Install_MetricBeat_YAML](https://user-images.githubusercontent.com/106977984/179812437-3357f398-1a94-469b-a7de-f09b9b61bbd8.png)
 
 
 This document contains the following details:
