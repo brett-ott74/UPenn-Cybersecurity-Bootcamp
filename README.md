@@ -7,7 +7,8 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Install ELK YAML file may be used to install only certain pieces of it, such as Filebeat.
 
-  
+  ![Network_Diagram_2](https://user-images.githubusercontent.com/106977984/179809201-cec1521c-5990-42d8-a432-560238c3f41a.png)
+
   ---
 - name: Configure Elk VM with Docker
   hosts: elk
