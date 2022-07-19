@@ -35,39 +35,22 @@ Load balancing ensures that the application will be highly stable and available,
 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the system logs and system resources. Using Filebeat allows us to easily monitor the system logs for the network and record suspicious activity such as failed access attempts.  Metricbeat offers an additional layer of security by monitoring system resources such as CPU and Memory usage of the networked machines. Monitoring these resources could help to identify an Indicator of Attack (IOA).
-- 
+
 
 The configuration details and function of each machine may be found below.
 
-
-|       NAME       |                             FUNCTION                             |                     IP ADDRESS                     | OPERATING   SYSTEM |   |
-|:----------------:|:----------------------------------------------------------------:|:--------------------------------------------------:|:------------------:|---|
-| Jump Box         | Gateway                                                          | 10.1.0.4-Network 20.119.167.247-Public(Not Static) | Linux              |   |
-| Web 1            | DVWA Server                                                      | 10.1.0.5-Network 20.114.171.9-Public(Not Static)   | Linux              |   |
-| Web 2            | DVWA Server                                                      | 10.1.0.6-Network 20.114.171.9-Public(Not Static)   | Linux              |   |
-| ELK              | ELK Stack                                                        | 10.2.0.4-Network 20.9.39.118-Public(Not Static)    | Linux              |   |
-| Personal Machine | Used to SSH into Jump Box,  Web1, Web2 and Connect to  ELK Stack | 71.164.113.222                                     | Windows 11         |   |
-
-
+![Machine_Config_Table](https://user-images.githubusercontent.com/106977984/179812762-0809812e-1072-4c84-a35d-48cc37fdbb8d.png)
 
 ### Access Policies
 
 The machines on the internal network are not exposed to the public Internet. However, the Web1, Web2 and ELK machines can accept connections via Port 80 from my personal machine. The only whitelisted IP address is:  71.164.113.222
 
 Machines within the network can only be accessed by SSH via Port 22 from the Jump Box machine at IP 10.1.0.4
-- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
+
 
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Publicly   Accessible | Allowed IP   Addresses            |   |   |
-|----------|-----------------------|-----------------------------------|:-:|---|
-| Jump Box | No                    | 71.164.113.222                    |   |   |
-| Web 1    | No                    | 71.164.113.222 10.1.0.4 (via SSH) |   |   |
-| Web 2    | No                    | 71.164.113.222 10.1.0.4 (via SSH) |   |   |
-| ELK      | No                    | 71.164.113.222                    |   |   |
-|          |                       |                                   |   |   |
-
-
+![Access_Policies](https://user-images.githubusercontent.com/106977984/179812811-87f96561-4fe0-4817-96f7-a2d0e270cdb7.png)
 
 ### Elk Configuration
 
