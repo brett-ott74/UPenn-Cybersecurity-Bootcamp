@@ -15,7 +15,7 @@ The files in this repository were used to configure the network depicted below.
 
 
 This document contains the following details:
-- Description of the Topologu
+- Description of the Topology
 - Access Policies
 - ELK Configuration
   - Beats in Use
