@@ -10,7 +10,7 @@ The files in this repository were used to configure the network depicted below.
 ![Brett_Ott_Network_Diagram](https://user-images.githubusercontent.com/106977984/179813221-050d5e04-a30f-420c-ae46-0096b1ed1d60.PNG)
 
   
-  These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YAML files may be used to install only certain pieces of it, such as Filebeat.
+  These files have been tested and used to generate a live ELK deployment on Azure. They can be used to recreate the entire deployment pictured above. Alternatively, select portions of the YAML files may be used to install only certain pieces of it, such as Filebeat.
   
   ![Install_ELK_YAML](https://user-images.githubusercontent.com/106977984/179809975-35aa2c5b-3b9f-4cce-83f5-f71c90f9aac3.png)
   
